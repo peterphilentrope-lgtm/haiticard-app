@@ -1,7 +1,10 @@
+import React, { useState } from 'react';
+import HomePage from './pages/HomePage';
+
 export default function App() {
   return (
     <div>
-      <h1>HaitiCard is working</h1>
+      <HomePage />
     </div>
   );
 }
